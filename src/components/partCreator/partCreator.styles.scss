@@ -1,0 +1,23 @@
+.partCreator {
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            display: block;
+        };
+
+        button {
+            display: block;
+            cursor: pointer;
+            background-color: rgb(40, 174, 123);
+            color: white;
+            font-weight: bold;
+            margin: 10px auto;
+            width: 50%;
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+        }
+    }
+}

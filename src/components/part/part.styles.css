@@ -1,0 +1,12 @@
+.bars_container {
+    /*box-sizing: border-box;*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.part_title {
+    text-align: left;
+    font-size: 2rem;
+}

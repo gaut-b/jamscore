@@ -1,0 +1,47 @@
+
+.signContainer {
+    &__menu {
+        border: 1px solid red;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 25%;
+        height: 50px;
+            &--background {
+                background-position: center;
+            };
+            &--center {
+                background-position: center;
+            };
+            &--left {
+                background-position: left;
+            };
+            &--right {
+                background-position: right;
+            };
+    }
+
+    &__bar {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
+            &--center {
+                background-position: center;
+                background-size: contain;
+            };
+            &--background {
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-size: 100%;
+            };
+            &--left {
+                background-position: left;
+            };
+            &--right {
+                background-position: right;
+            };
+    }
+}

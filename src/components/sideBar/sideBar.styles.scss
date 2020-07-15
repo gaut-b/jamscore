@@ -1,0 +1,31 @@
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+        height: 20%;
+        padding: 10px 0px;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    };
+}
+
+.button {
+    border: none;
+    background: none;
+    padding: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover {
+        background: rgb(240, 240, 240);;
+    }
+}

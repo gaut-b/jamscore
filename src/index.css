@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(204,204,204);
+  font-family: 'Indie Flower', cursive;
+}
+
+.DraftEditor-root {
+  border-radius: .3em;
+  padding: 1em;
+}

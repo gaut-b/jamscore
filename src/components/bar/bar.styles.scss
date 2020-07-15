@@ -1,0 +1,43 @@
+.bar {
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    height: 30px;
+    box-sizing: border-box;
+    opacity: 1;
+    margin-top: 5px;
+    background-size: 100%;
+    z-index: 1;
+    cursor: grab;
+
+    .bar__chords {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: 0;
+        left: 10%;
+        text-align: center;
+        z-index: 3;
+    }
+
+}
+
+// .bar-isDragging {
+
+//     opacity: 0.5;
+//     cursor: move;
+
+//     color: white;
+//     background-color: #263B4A;
+//     box-sizing: border-box;
+//     height: 30;
+//     left: 107.58332824707031;
+//     opacity: null;
+//     pointer-events: none;
+//     position: fixed;
+//     top: 203.38333129882812;
+//     transform: null;
+//     transition: opacity 0.2s cubic-bezier(0.2, 0, 0, 1);
+//     width: 793.7000122070312;
+//     z-index: 5000;
+// }
